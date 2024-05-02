@@ -1,11 +1,10 @@
 
 const express = require('express');
-
 const app = express();
 const cors = require('cors');
 const axios = require('axios');
 const bodyParser = require('body-parser');
-var config= require('dotenv').config();
+const config= require('dotenv').config();
 const port = process.env.PORT; // You can choose any port you prefer
 // Assuming pm is a module that provides the generate_session method
 //const pm = require('./pm'); // Replace './pm' with the actual path to your module
